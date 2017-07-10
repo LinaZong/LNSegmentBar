@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LNTestSegmentBar_Example' do
+  pod 'LNTestSegmentBar', :path => '../'
+
+  target 'LNTestSegmentBar_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
