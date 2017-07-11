@@ -1,0 +1,6 @@
+framework module LNTestSegmentBar {
+  umbrella header "LNTestSegmentBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

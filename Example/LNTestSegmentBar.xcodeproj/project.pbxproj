@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C38CF491F147C4000532E11 /* LNSegmentBarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C38CF481F147C4000532E11 /* LNSegmentBarConfig.m */; };
+		0C3CA0291F13793200760F2C /* UIView+LNSegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3CA0281F13793200760F2C /* UIView+LNSegmentBar.m */; };
+		0C3CA02C1F137A4100760F2C /* LNSegentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3CA02B1F137A4100760F2C /* LNSegentBar.m */; };
+		0C3CA02F1F1384F000760F2C /* LNSementBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3CA02E1F1384F000760F2C /* LNSementBarVC.m */; };
 		12CBD153C933AD444B667EE0 /* Pods_LNTestSegmentBar_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C977823ED336262D7A0060D /* Pods_LNTestSegmentBar_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -37,8 +41,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C38CF471F147C4000532E11 /* LNSegmentBarConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNSegmentBarConfig.h; sourceTree = "<group>"; };
+		0C38CF481F147C4000532E11 /* LNSegmentBarConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNSegmentBarConfig.m; sourceTree = "<group>"; };
+		0C3CA0271F13793200760F2C /* UIView+LNSegmentBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LNSegmentBar.h"; sourceTree = "<group>"; };
+		0C3CA0281F13793200760F2C /* UIView+LNSegmentBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LNSegmentBar.m"; sourceTree = "<group>"; };
+		0C3CA02A1F137A4100760F2C /* LNSegentBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNSegentBar.h; sourceTree = "<group>"; };
+		0C3CA02B1F137A4100760F2C /* LNSegentBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNSegentBar.m; sourceTree = "<group>"; };
+		0C3CA02D1F1384F000760F2C /* LNSementBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNSementBarVC.h; sourceTree = "<group>"; };
+		0C3CA02E1F1384F000760F2C /* LNSementBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNSementBarVC.m; sourceTree = "<group>"; };
 		2C977823ED336262D7A0060D /* Pods_LNTestSegmentBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LNTestSegmentBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		573A02DAE1CC32BD9668C38E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		573A02DAE1CC32BD9668C38E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LNTestSegmentBar_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LNTestSegmentBar_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,10 +74,10 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71D4D2B865C6AC4A8669ED94 /* Pods-LNTestSegmentBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LNTestSegmentBar_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LNTestSegmentBar_Example/Pods-LNTestSegmentBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8CFAA8C8A523394A3A28341F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8CFAA8C8A523394A3A28341F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B6DA5EF65AEE36BA30E259B9 /* Pods-LNTestSegmentBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LNTestSegmentBar_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LNTestSegmentBar_Tests/Pods-LNTestSegmentBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C9D03941A6304BC12E58D5EE /* Pods-LNTestSegmentBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LNTestSegmentBar_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LNTestSegmentBar_Example/Pods-LNTestSegmentBar_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E30356A82B1257A4FEE79B0C /* LNTestSegmentBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LNTestSegmentBar.podspec; path = ../LNTestSegmentBar.podspec; sourceTree = "<group>"; };
+		E30356A82B1257A4FEE79B0C /* LNTestSegmentBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LNTestSegmentBar.podspec; path = ../LNTestSegmentBar.podspec; sourceTree = "<group>"; };
 		E92A49EECC7156678064AA65 /* Pods-LNTestSegmentBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LNTestSegmentBar_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LNTestSegmentBar_Tests/Pods-LNTestSegmentBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,6 +107,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C3CA0231F13780000760F2C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0C3CA0271F13793200760F2C /* UIView+LNSegmentBar.h */,
+				0C3CA0281F13793200760F2C /* UIView+LNSegmentBar.m */,
+				0C3CA02A1F137A4100760F2C /* LNSegentBar.h */,
+				0C3CA02B1F137A4100760F2C /* LNSegentBar.m */,
+				0C3CA02D1F1384F000760F2C /* LNSementBarVC.h */,
+				0C3CA02E1F1384F000760F2C /* LNSementBarVC.m */,
+				0C38CF471F147C4000532E11 /* LNSegmentBarConfig.h */,
+				0C38CF481F147C4000532E11 /* LNSegmentBarConfig.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +159,7 @@
 		6003F593195388D20070C39A /* Example for LNTestSegmentBar */ = {
 			isa = PBXGroup;
 			children = (
+				0C3CA0231F13780000760F2C /* Classes */,
 				6003F59C195388D20070C39A /* LNAppDelegate.h */,
 				6003F59D195388D20070C39A /* LNAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -408,7 +436,11 @@
 			files = (
 				6003F59E195388D20070C39A /* LNAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* LNViewController.m in Sources */,
+				0C3CA02F1F1384F000760F2C /* LNSementBarVC.m in Sources */,
+				0C3CA0291F13793200760F2C /* UIView+LNSegmentBar.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				0C3CA02C1F137A4100760F2C /* LNSegentBar.m in Sources */,
+				0C38CF491F147C4000532E11 /* LNSegmentBarConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

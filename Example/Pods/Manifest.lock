@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - LNTestSegmentBar (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - LNTestSegmentBar (from `../`)
+
+EXTERNAL SOURCES:
+  LNTestSegmentBar:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  LNTestSegmentBar: 3bc96663296610b85f7df12288fd2d5f6f0f4a83
+
+PODFILE CHECKSUM: c070fc5d529d4127ed1b4a62549de7f467c3876d
+
+COCOAPODS: 1.3.0.beta.2

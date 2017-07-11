@@ -1,0 +1,6 @@
+framework module Pods_LNTestSegmentBar_Tests {
+  umbrella header "Pods-LNTestSegmentBar_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
